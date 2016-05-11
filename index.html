@@ -2,9 +2,14 @@
 <html>
 <head>
 	<title>Giphy API</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">	
 
+   <!--  Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- My Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 	<!-- JQuery Link -->
 	<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
 </head>
@@ -18,13 +23,17 @@
 	</header>
 	<section class="main">
 		<div id="container">
-			<div id="addPics">yuyuyuyfu</div>
+			<div id="addPics"></div>
 			<div id="addTvShow">
 				<form id="movie-form">
-					<label for="movie-input">Add A TV Show:</label><br>
-					<input type="text" id="movie-input"><br>
+					<label for="movie-input">Add A TV Show:</label>
+					<input type="text" id="movie-input">
 					<!-- Button triggers new movie to be added -->
-					<input id="addMovie" type="submit" value="Add TV Show">
+
+					<div class="button">
+						<input id="addMovie" type="submit" value="Add TV Show">
+					</div>
+
 				</form>
 			</div>
 		</div>
